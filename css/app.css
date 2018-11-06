@@ -1,0 +1,57 @@
+$font: "Raleway", sans-serif;
+
+body {
+  font-family: $font;
+  padding: 0;
+}
+
+#container {
+  width: 100%;
+  height: 100vh;
+  padding: 150px;
+  background-image: url("https://images.pexels.com/photos/207130/pexels-photo-207130.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=350");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#inner-container {
+  width: 600px;
+  height: 250px;
+  margin: 0px auto;
+  padding: 20px;
+  background-color: rgba(28, 17, 17, 0.75);
+  border-radius: 10px;
+  color: white;
+  font-family: "Raleway", sans-serif;
+  position: relative;
+}
+
+#icon-container {
+  position: absolute;
+  bottom: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  padding: 0 20px;
+}
+
+i {
+  color: white;
+  font-size: 2em;
+  float: left;
+}
+
+#quote {
+  font-size: 1.5em;
+}
+
+#author {
+  text-align: right;
+}
+
+.animated {
+  transition-property: background-image;
+  transition-duration: 2s;
+}
